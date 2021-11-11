@@ -1,0 +1,268 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    transition: 2s;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+
+/* Section Menu */
+
+header
+{
+    display: flex;
+    background: black;
+    overflow: hidden;
+    transition: 2s;
+}
+input[name="search"]
+{
+    padding-right: 5px;
+    transition: 2s;
+}
+.deroul
+{
+    transform-origin: 0px 50%;
+    transform: scaleY(100%);
+}
+a
+{
+    text-decoration: none;
+    padding-right: 5px;
+    color: white;
+}
+.a
+{
+    display: grid;
+    margin-left: auto;
+    padding: 15px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    transition: 5s;
+}
+.a>a
+{
+    padding: 15px;
+}
+.a>svg
+{
+    display: none;
+}
+.absolute
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.flex
+{
+    display: flex;
+    margin-left: 5%;
+}
+.a>.flexcenter, .flexcenter
+{
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.flex1
+{
+    display: block;
+}
+.flex2
+{
+    display: block;
+}
+.flex3.flexcenter
+{
+    display: flex;
+    justify-content: center;
+}
+.flexcenter>img
+{
+    height: 55px;
+}
+.flex1.flex2>.flexcenter, .flexcenter
+{
+    display: flex;
+    justify-content: center;
+}
+div.flex1.flex2
+{
+    display: inline-block;
+}
+.sombre
+{
+    background: black;
+    color: white;
+}
+.sombre2
+{
+    background: white;
+}
+.sombre3
+{
+    color: white;
+}
+.lastsvg
+{
+    display: none;
+}
+
+/* Classes pour toutes les pages */
+
+.invisible
+{
+    display: none;
+    transition: 2s;
+}
+
+/* Style pour bouton scroll */
+
+.fixed
+{
+    display: none;
+}
+
+/* Classes pour la section qui sommes nous ? */
+
+.grid
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 25px auto 25px auto 25px auto 25px auto;
+    grid-template-areas: "sec1"
+                         "."
+                         "sec2"
+                         "."
+                         "sec3"
+                         "."
+                         "sec4"
+                         "."
+                         "sec5";
+}
+.sec1, .sec2, .sec3, .sec4, .sec5
+{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 2s;
+    
+}
+.sec6, .sec7, .sec8, .sec9, .sec0, .sec11, .sec12, .sec13, .sec14, .sec15
+{
+    padding-top: 5px;
+    height: 25px;
+    display: flex;
+}
+.sec6>div, .sec7>div, .sec8>div, .sec9>div, .sec0>div, .sec11>div, .sec12>div, .sec13>div, .sec14>div, .sec15>div
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec1>img, .sec2>img, .sec3>img, .sec4>img, .sec5>img
+{
+    width: 100%;
+}
+.sec1
+{
+    grid-area: sec1;
+}
+.sec2
+{
+    grid-area: sec2;
+}
+.sec3
+{
+    grid-area: sec3;
+}
+.sec4
+{
+    grid-area: sec4;
+}
+.sec5
+{
+    grid-area: sec5;
+}
+.photofiltre>img
+{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.resp-container { 
+    position: relative; 
+    overflow: hidden; 
+    margin-top: 25px;
+    padding-top: 56.25%; 
+  }
+.resp-iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    border: 0; 
+  }
+
+/* Classes pour la section Contact */
+
+.contact
+{
+    display: initial;
+    margin-top: 2.5%;
+}
+form 
+{
+    margin-left: 5%;
+}
+.input1
+{
+    width: 90%;
+}
+.input2
+{
+    width: 90%;
+}
+.padding21
+{
+    margin-right: 5px;
+}
+.padding2
+{
+    margin-top: 5px;
+}
+.padding11
+{
+    margin-top: 5px;
+}
+.textarea
+{
+    padding-bottom: 125px;
+}
+.submit
+{
+    margin-top: 5px;
+    border-bottom: none;
+    width: 90%;
+    background: white;
+    color: black;
+    margin-left: 7.5px;
+}
+input[type=checkbox]
+{
+    margin-top: 15px;
+    padding-left: 5%;
+}
+
+/* Classes pour toutes les pages */
+
+img
+{
+    transition: 2s;
+}
