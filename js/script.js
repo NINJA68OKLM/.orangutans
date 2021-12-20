@@ -97,3 +97,5 @@ photo.forEach(e => {
         this.parentNode.classList.add("photofiltre")
     }
 });
+
+// Script pour le diapo :
