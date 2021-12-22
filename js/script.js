@@ -22,7 +22,7 @@ function sombree(){
     document.querySelector(".a").children[0].classList.add("invisible");
     document.querySelector(".a").children[7].style.stroke="black";
     document.querySelector(".absolute").style.stroke="black";
-    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/logo test 2.jpg";
+    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/Logo dark.png";
 }
 // Nuit PC :
 document.querySelector(".a").children[0].addEventListener("click", sombre);
@@ -36,7 +36,7 @@ function sombre(){
     document.querySelector(".a").children[0].classList.add("invisible");
     document.querySelector(".a").children[7].style.stroke="black";
     document.querySelector(".a").children[1].style.display= "initial";
-    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/logo test 2.jpg";
+    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/Logo dark pc.png";
     document.querySelector(".fixed").style.border= "3px solid white";
     document.querySelector(".fixed").style.background= "black";
     document.querySelector(".fixed>a>svg").style.stroke= "white";
@@ -53,7 +53,7 @@ function clair(){
     document.querySelector(".a").children[1].classList.add("invisible");
     document.querySelector(".a").children[1].style.display= "none";
     document.querySelector(".a").children[7].style.stroke="white";
-    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/image test.png";
+    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/Logo light pc.png";
     document.querySelector(".fixed").style.border= "3px solid black";
     document.querySelector(".fixed").style.background= "white";
     document.querySelector(".fixed>a>svg").style.stroke= "black";
@@ -74,7 +74,7 @@ function claire(){
     document.querySelector(".a").children[1].classList.add("invisible");
     document.querySelector(".a").children[7].style.stroke="white";
     document.querySelector(".absolute").style.stroke="white";
-    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/image test.png";
+    document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/Logo light.png";
 }
 
 // Script pour la barre de recherche :
