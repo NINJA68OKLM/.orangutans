@@ -4,10 +4,10 @@ body
     margin: 0px;
     transition: 2s;
     overflow-y: scroll;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
-/* Section Menu */
+/* Classes pour le menu */
 
 header
 {
@@ -113,22 +113,14 @@ div.flex1.flex2
     display: none;
 }
 
-/* Classes pour toutes les pages */
-
-.invisible
-{
-    display: none;
-    transition: 2s;
-}
-
-/* Style pour bouton scroll */
+/* Classe pour bouton scroll */
 
 .fixed
 {
     display: none;
 }
 
-/* Classes pour qui faisons nous ? */
+/* Classes pour la section "Qui faisons nous ?" */
 
 .grid2
 {
@@ -178,7 +170,7 @@ div.flex1.flex2
     justify-content: space-evenly;
 }
 
-/* Classes pour la section qui sommes nous ? */
+/* Classes pour la section "Qui sommes nous ?" */
 
 .grid
 {
@@ -261,7 +253,7 @@ div.flex1.flex2
     border: 0; 
   }
 
-/* Classes pour la section Contact */
+/* Classes pour la section "Contact" */
 
 .contact
 {
@@ -313,6 +305,11 @@ input[type=checkbox]
 
 /* Classes pour toutes les pages */
 
+.invisible
+{
+    display: none;
+    transition: 2s;
+}
 img
 {
     transition: 2s;
