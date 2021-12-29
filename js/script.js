@@ -1,5 +1,4 @@
 // Script pur le mode sombre :
-
 var a = document.querySelectorAll("a");
 document.querySelector(".a.invisible>.flex3.flexcenter").style.stroke="black";
 // Dérouleent du menu portablme et tablette :
@@ -97,5 +96,3 @@ photo.forEach(e => {
         this.parentNode.classList.add("photofiltre")
     }
 });
-
-// Script pour le diapo :
