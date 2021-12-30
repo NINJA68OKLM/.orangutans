@@ -6,6 +6,11 @@ body
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
+@font-face
+{
+    font-family: "HerbertEF SmallCaps Regular";
+    src: url("/font/HerbertEF\ SmallCaps\ Regular.otf") format("otf");
+}   
 
 /* Classes pour le menu */
 
@@ -26,17 +31,21 @@ input[name="search"]
     transform-origin: 0px 50%;
     transform: scaleY(100%);
 }
+.orange
+{
+    background: #ff6e40;
+}
 a
 {
     text-decoration: none;
     padding-right: 5px;
     color: white;
+    font-family: HerbertEF SmallCaps Regular;
 }
 .a
 {
     display: grid;
     margin-left: auto;
-    padding: 15px;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
     justify-content: center;
@@ -65,7 +74,7 @@ a
 {
     display: flex;
     justify-content: center;
-    width: 95vw;
+    width: 96vw;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -115,17 +124,21 @@ div.flex1.flex2
 
 /* Classe pour bouton scroll */
 
-.fixed
+.fixed, .fixed>a>svg
 {
     display: none;
 }
 
-/* Classes pour la section "Qui faisons nous ?" */
+/* Classes pour la section "Que faisons nous ?" */
 
+#que-faisons-nous
+{
+    background: #ff6e40;
+}
 .grid2
 {
     width: 85.5vw;
-    height: 48.30vw;
+    height: 48.09vw;
     overflow: hidden;
 }
 .grid2, p
@@ -152,11 +165,6 @@ div.flex1.flex2
     background: gray;
     opacity: 0.7;
     z-index: 2;
-}
-.rondd>svg
-{
-    margin-top: 10px;
-    margin-left: 10px;
 }
 .droitee
 {
@@ -234,8 +242,8 @@ div.flex1.flex2
 }
 .photofiltre>img
 {
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 .resp-container { 
     position: relative; 
@@ -244,21 +252,33 @@ div.flex1.flex2
     padding-top: 56.25%;
     margin-bottom: 16px;
   }
-.resp-iframe { 
+.resp-iframe 
+{
     position: absolute; 
     top: 0; 
     left: 0; 
     width: 100%; 
     height: 100%; 
     border: 0; 
-  }
+}
+
+/* Classes pour la section "Crédits" */
+
+#credit
+{
+    background: #ff6e40;
+}
+.p1
+{
+    padding-bottom: 16px;
+}
 
 /* Classes pour la section "Contact" */
 
 .contact
 {
     display: initial;
-    margin-top: 2.5%;
+    padding-top: 2.5%;
 }
 form 
 {
