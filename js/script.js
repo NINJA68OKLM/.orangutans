@@ -96,3 +96,13 @@ photo.forEach(e => {
         this.parentNode.classList.add("photofiltre")
     }
 });
+
+// Script pour le scroll :
+
+var scroll = document.querySelector(".fixed");
+var fleche = document.querySelector(".fixed>a>svg");
+if (scroll.style.position= "fixed")
+{
+    scroll.style.display= "initial";
+    fleche.style.display= "initial";
+}
