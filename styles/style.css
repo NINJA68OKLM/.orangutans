@@ -1,25 +1,37 @@
+html
+{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
 body
 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    transition: 2s;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
 }
-@font-face
-{
-    font-family: "HerbertEF SmallCaps Regular";
-    src: url("/font/HerbertEF\ SmallCaps\ Regular.otf") format("otf");
-}   
+
+@font-face {
+    font-family: 'HerbertEF';
+    src: url('/font/HerbertEF-RegularSmallCaps.woff2') format('woff2'),
+        url('/font/HerbertEF-RegularSmallCaps.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* Classes pour le menu */
 
 header
 {
     display: flex;
-    background: black;
+    background: white;
     overflow: hidden;
     transition: 2s;
+}
+.logo
+{
+    width: 65.78px;
+    height: 55px;
+    background-image: url("../img/Logo_dark.png");
 }
 input[name="search"]
 {
@@ -39,8 +51,8 @@ a
 {
     text-decoration: none;
     padding-right: 5px;
-    color: white;
-    font-family: HerbertEF SmallCaps Regular;
+    color: black;
+    font-family: 'HerbertEF';
 }
 .a
 {
@@ -111,7 +123,7 @@ div.flex1.flex2
 }
 .sombre2
 {
-    background: white;
+    background: black;
 }
 .sombre3
 {
@@ -124,7 +136,7 @@ div.flex1.flex2
 
 /* Classe pour bouton scroll */
 
-.fixed, .fixed>a>svg
+.fixed, .fixed>a, .fixed>a>svg
 {
     display: none;
 }
@@ -337,4 +349,8 @@ img
 h2
 {
     margin-left: 21.85px;
+}
+h1, p, h2
+{
+    transition: 2s;
 }
