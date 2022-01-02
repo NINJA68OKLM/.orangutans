@@ -1,9 +1,3 @@
-// var body = document.querySelector("body");
-// if (body.style.width>="200px")
-// {
-//     document.querySelector(".flex1.flex2>.flexcenter>img").src= "img/Logo dark.png";
-// }
-
 // Script pour le mode sombre :
 var a = document.querySelectorAll("a");
 document.querySelector(".a.invisible>.flex3.flexcenter").style.stroke="black";
@@ -73,7 +67,7 @@ function claire(){
     document.querySelector("body").classList.remove("sombre");
     document.querySelector("header").classList.remove("sombre2");
     a.forEach(e => {
-        e.style.color= "white";
+        e.style.color= "black";
     });
     document.querySelector(".a").children[0].classList.remove("invisible");
     document.querySelector(".a").children[1].classList.add("invisible");
