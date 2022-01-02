@@ -8,10 +8,11 @@ header
     height: 55px;
     overflow: hidden;
 }
-.logo
+img.logo
 {
     width: 120.5px;
     height: 55px;
+    src: url("../img/Logo_dark_pc.png");
     background-image: url("../img/Logo_dark_pc.png");
 }
 input[name="search"]

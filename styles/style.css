@@ -5,18 +5,19 @@ html
 }
 body
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: fantasy;
     margin: 0px;
 }
 
 @font-face {
-    font-family: 'HerbertEF';
-    src: url('/font/HerbertEF-RegularSmallCaps.woff2') format('woff2'),
-        url('/font/HerbertEF-RegularSmallCaps.woff') format('woff');
+    font-family: 'Mortal Wave';
+    src: url('/font/MortalWave.woff2') format('woff2'),
+        url('/font/MortalWave.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 
 /* Classes pour le menu */
 
@@ -31,7 +32,18 @@ header
 {
     width: 65.78px;
     height: 55px;
-    background-image: url("../img/Logo_dark.png");
+    background-image: url("../img/Logo_dark_mb.png");
+}
+.flexcenter>img
+{
+    background-image: url("../img/Logo_light_mb.png");
+}
+img.logo
+{
+    width: 65.78px;
+    height: 55px;
+    src: url("../img/Logo_dark_mb.png");
+    background-image: url("../img/Logo_dark_mb.png");
 }
 input[name="search"]
 {
@@ -52,7 +64,6 @@ a
     text-decoration: none;
     padding-right: 5px;
     color: black;
-    font-family: 'HerbertEF';
 }
 .a
 {
