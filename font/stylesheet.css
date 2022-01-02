@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mortal Wave';
+    src: url('MortalWave.woff2') format('woff2'),
+        url('MortalWave.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
