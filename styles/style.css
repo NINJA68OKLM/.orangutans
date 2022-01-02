@@ -28,22 +28,9 @@ header
     overflow: hidden;
     transition: 2s;
 }
-.logo
-{
-    width: 65.78px;
-    height: 55px;
-    background-image: url("../img/Logo_dark_mb.png");
-}
 .flexcenter>img
 {
     background-image: url("../img/Logo_light_mb.png");
-}
-img.logo
-{
-    width: 65.78px;
-    height: 55px;
-    src: url("../img/Logo_dark_mb.png");
-    background-image: url("../img/Logo_dark_mb.png");
 }
 input[name="search"]
 {
