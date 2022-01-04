@@ -5,23 +5,8 @@ html
 }
 body
 {
-    font-family: fantasy;
+    font-family: 'Oswald', sans-serif;
     margin: 0px;
-}
-
-@font-face {
-    font-family: 'Mortal Wave';
-    src: url('/font/MortalWave.woff2') format('woff2'),
-        url('/font/MortalWave.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-.logo
-{
-    width: 65.7px;
-    height: 55px;
-    background-image: url("../img/Logo_dark_mb.png");
 }
 
 /* Classes pour le menu */
@@ -33,9 +18,12 @@ header
     overflow: hidden;
     transition: 2s;
 }
-.flexcenter>img
+.logo
 {
-    background-image: url("../img/Logo_light_mb.png");
+    width: 65.7px;
+    height: 55px;
+    background-image: url("../img/Logo_dark_mb.png");
+    background-size: 100%;
 }
 input[name="search"]
 {

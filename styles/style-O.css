@@ -8,6 +8,11 @@ header
     height: 55px;
     overflow: hidden;
 }
+.logo
+{
+    width: 121.33px;
+    background-image: url("../img/Logo_dark_pc.png");
+}
 input[name="search"]
 {
     margin-right: 5px;
