@@ -17,7 +17,12 @@ body
     font-style: normal;
     font-display: swap;
 }
-
+.logo
+{
+    width: 65.7px;
+    height: 55px;
+    background-image: url("../img/Logo_dark_mb.png");
+}
 
 /* Classes pour le menu */
 
